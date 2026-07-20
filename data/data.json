@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "name": "Debby",
+        "email": "debby@example.com",
+        "projects": [
+            {
+                "id": 1,
+                "title": "CLI Tool",
+                "description": "Build a project manager",
+                "due_date": "2026-07-25",
+                "tasks": [
+                    {
+                        "id": 1,
+                        "title": "Write User class",
+                        "status": "pending",
+                        "assigned_to": "Debby"
+                    },
+                    {
+                        "id": 2,
+                        "title": "Write README",
+                        "status": "complete",
+                        "assigned_to": "Alex"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Alex",
+        "email": "alex@example.com",
+        "projects": [
+            {
+                "id": 2,
+                "title": "CLI Tool",
+                "description": "Build a project manager",
+                "due_date": "2026-07-25",
+                "tasks": []
+            }
+        ]
+    }
+]
