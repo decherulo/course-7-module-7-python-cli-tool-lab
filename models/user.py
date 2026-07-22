@@ -8,6 +8,16 @@ class User:
         self.email = email
         self.projects = []
 
+    @property
+    def email(self):
+        return self._email
+
+    @email.setter
+    def email(self, value):
+        if "@" not in value:
+            raise ValueError("Invalid email: must contain '@'")
+        self._email = value
+
     def add_project(self, project):
         self.projects.append(project)
 
